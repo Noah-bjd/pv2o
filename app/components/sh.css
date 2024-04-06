@@ -1,0 +1,10 @@
+.shadow-smoke::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 130px; /* Adjust this value to control the size of the shadow */
+    background: linear-gradient(to top, rgba(58, 63, 94, 0.7), rgba(211, 154, 69, 0));
+  }
+  
